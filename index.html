@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vadik Goel — Developer &amp; Game Dev</title>
+<meta name="description" content="Portfolio of Vadik Goel — BCA student, full-stack developer, and game dev in progress. Also known as VyperGamer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="glow" id="glow"></div>
+
+
+<div class="grain"></div>
+
+<nav>
+  <a href="#top" class="logo">VG</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#stack">Stack</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#now">Now</a></li>
+    <li><a href="#beyond">Beyond</a></li>
+    <li><a href="#connect">Connect</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<ul class="nav-mobile" id="navMobile">
+  <li><a href="#about">About</a></li>
+  <li><a href="#stack">Stack</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#now">Now</a></li>
+  <li><a href="#beyond">Beyond</a></li>
+  <li><a href="#connect">Connect</a></li>
+</ul>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">BCA Student · Web Developer · Learning Game Dev</p>
+      <h1 class="name">VADIK GOEL</h1>
+      <p class="hero-sub">Building bots, websites, servers, AI experiments and game prototypes — one project at a time. Also known online as <strong>VyperGamer</strong>.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#connect" class="btn ghost">Connect</a>
+      </div>
+      <div class="scroll-cue"></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <p class="eyebrow reveal">About</p>
+      <div class="about-grid">
+        <div class="reveal">
+          <div class="avatar-frame">
+            <img src="https://avatars.githubusercontent.com/u/178655763?v=4" alt="Vadik Goel" loading="lazy">
+          </div>
+        </div>
+        <div class="reveal">
+          <p>I'm Vadik Goel — a BCA student from Kurukshetra, Haryana, who'd rather build the tool than wait for one to exist. Started out doing web development, then somehow ended up writing my own programming language, hosting my own cloud storage server, and running Discord communities with economies bigger than they had any right to be.</p>
+          <p>Right now I'm teaching myself Unity from the ground up — and yes, it started with Roll-a-Ball, like everyone else's.</p>
+          <div class="facts">
+            <div><span>Location —</span> Kurukshetra, Haryana, India</div>
+            <div><span>Focus —</span> Full-stack systems, languages &amp; game dev</div>
+            <div><span>Also running —</span> a family ladies-wear retail brand</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stack" id="stack">
+    <div class="wrap">
+      <h2 class="section-title reveal">Stack</h2>
+      <div class="terminal reveal">
+        <div class="terminal-bar"><span></span><span></span><span></span></div>
+        <div class="terminal-body">
+          <div><span class="prompt">vadik@dev</span> <span class="cmd">~$ languages --list</span></div>
+          <div class="tag-row">
+            <span class="tag">JavaScript</span><span class="tag">Node.js</span><span class="tag">Python</span><span class="tag">TypeScript</span><span class="tag">C / C++</span>
+          </div>
+          <div><span class="prompt">vadik@dev</span> <span class="cmd">~$ tools --list</span></div>
+          <div class="tag-row">
+            <span class="tag">Git</span><span class="tag">SQLite</span><span class="tag">discord.js</span><span class="tag">Blender</span><span class="tag">Arduino + MMOS</span><span class="tag">Unity</span>
+          </div>
+          <div><span class="prompt">vadik@dev</span> <span class="cmd">~$ status</span></div>
+          <div class="out">→ always mid-project. that's the natural state.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="wrap">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="project-grid">
+
+        <div class="project-card reveal" data-tilt>
+          <div class="project-top">
+            <h3>Zenith-Cloud</h3>
+            <span class="badge">TypeScript</span>
+          </div>
+          <p>A high-performance, self-hosted personal cloud storage server — turns any physical drive into a secure, distributed data node.</p>
+          <a class="project-link" href="https://github.com/VadikGoel/Zenith-Cloud" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+
+        <div class="project-card reveal" data-tilt>
+          <div class="project-top">
+            <h3>easypy-lang</h3>
+            <span class="badge">Python</span>
+          </div>
+          <p>A programming language designed for humans, not robots — swaps complex syntax for clear, English-like commands.</p>
+          <a class="project-link" href="https://github.com/VadikGoel/easypy-lang" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+
+        <div class="project-card reveal" data-tilt>
+          <div class="project-top">
+            <h3>The Hive</h3>
+            <span class="badge">JavaScript</span>
+          </div>
+          <p>A bee-themed, multi-guild Discord economy &amp; leveling bot. Public version shared for educational purposes.</p>
+          <a class="project-link" href="https://github.com/VadikGoel/The-Hive-Public" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+
+        <div class="project-card reveal" data-tilt>
+          <div class="project-top">
+            <h3>Deep-Explain Docs</h3>
+            <span class="badge">C · C++ · Python</span>
+          </div>
+          <p>A set of from-scratch language breakdowns — C, C++, and Python explained the way I wish they'd been explained to me.</p>
+          <a class="project-link" href="https://gist.github.com/VadikGoel" target="_blank" rel="noopener">View Gists →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="now" id="now">
+    <div class="wrap">
+      <h2 class="section-title reveal">Now: learning game dev</h2>
+      <div class="roadmap">
+        <div class="road-item done reveal">
+          <h4>Roll-a-Ball <span class="status">Complete</span></h4>
+          <p>The classic Unity starting point — physics, input, and a camera that actually follows the ball. Foundations first.</p>
+        </div>
+        <div class="road-item reveal">
+          <h4>Drift <span class="status">In progress</span></h4>
+          <p>A scoped-down floating-island prototype — small enough to actually finish, ambitious enough to teach me something real.</p>
+        </div>
+        <div class="road-item reveal">
+          <h4>Crime drama vertical slice <span class="status">Planned</span></h4>
+          <p>A GTA-style slice built around three protagonist archetypes — scaled down from a much bigger idea into something a solo dev can ship.</p>
+        </div>
+      </div>
+      <p class="now-note reveal">There are two bigger concepts sitting behind this roadmap — a multiplayer open-world RPG and the full crime-drama vision — both assessed as way beyond solo scope for now. They're the north star. The roadmap above is the honest, buildable version.</p>
+    </div>
+  </section>
+
+  <section class="beyond" id="beyond">
+    <div class="wrap">
+      <h2 class="section-title reveal">Beyond the code</h2>
+      <div class="beyond-grid">
+        <div class="reveal">
+          <p>When the editor closes, I'm usually deep in a ranked match, fiddling with a 3D scene in Blender, or wiring up a DIY sim racing wheel from an Arduino, MMOS firmware, and a DC motor — chasing G29-level force feedback without the price tag.</p>
+          <div class="chip-row">
+            <span class="chip">Valorant</span><span class="chip">CS2</span><span class="chip">Apex Legends</span>
+<span class="chip">GTA V</span><span class="chip">RDR2</span><span class="chip">Cyberpunk 2077</span>
+<span class="chip">Sekiro</span><span class="chip">Elden Ring</span><span class="chip">Black Myth Wukong</span>
+<span class="chip">God of War</span><span class="chip">Witcher 3</span><span class="chip">Skyrim</span>
+<span class="chip">Ghost of Tsushima</span><span class="chip">Forza Horizon 5</span><span class="chip">Minecraft</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="ai-box reveal"><h2 class="section-title">AI Playground</h2><ul><li>AI Agents</li><li>Ollama</li><li>Prompt Engineering</li><li>Automation</li><li>LLMs</li><li>Local AI Experiments</li></ul></div></div><section class="connect" id="connect">
+    <div class="wrap">
+      <p class="eyebrow reveal" style="justify-content:center;">Let's talk</p>
+      <h2 class="reveal">Find me online.</h2>
+      <p class="reveal">Open to collaborations, freelance work, or just talking shop about Unity, Discord bots, or why your DC motor FFB build keeps oscillating.</p>
+      <div class="social-row reveal">
+        <a class="social-pill" href="https://github.com/VadikGoel" target="_blank" rel="noopener">GitHub</a>
+        <a class="social-pill" href="https://www.twitch.tv/vyper_gamer" target="_blank" rel="noopener">Twitch</a>
+        <a class="social-pill" href="https://x.com/VyperGamer" target="_blank" rel="noopener">X</a>
+        <a class="social-pill" href="https://www.instagram.com/vadik_goyal/" target="_blank" rel="noopener">Instagram</a>
+        <a class="social-pill" href="https://bsky.app/profile/vyper-gamer.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+        <a class="social-pill" href="https://guns.lol/vypergamer" target="_blank" rel="noopener">guns.lol</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Vadik Goel</span>
+    <span>Built with Three.js</span>
+  </footer>
+
+</main>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
